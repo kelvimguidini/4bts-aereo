@@ -1,0 +1,146 @@
+.form-container {
+  --default-margin: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.form-contex {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  width: 1246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.form-contex .form-title {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+}
+
+.form-contex label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color3);
+}
+
+.form-contex input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='date'],
+input[type='tel'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f7f7f7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-contex .btn-submit {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-contex input[type='submit'] {
+  width: 306px;
+  border-radius: 33px;
+  border: none;
+  outline: none;
+  background: var(--color3);
+  color: var(--color2);
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.form-contex input[type='submit']:hover {
+  width: 306px;
+  background: #000;
+  cursor: pointer;
+}
+
+.form-contex .form-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-contex .input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: var(--default-margin);
+  margin-right: var(--default-margin);
+}
+
+.form-contex .grid-4-col-1 {
+  width: calc((100% / 4) * 1);
+}
+
+.form-contex .grid-4-col-2 {
+  width: calc((100% / 4) * 3);
+}
+
+.form-contex .grid-4-col-3 {
+  width: calc((100% / 4) * 3);
+}
+
+.form-contex .form-group-space {
+  width: 100%;
+}
+
+.form-contex .grid-4-space-1 {
+  width: calc((100% / 4) * 1 - 8px);
+}
+
+.form-contex .grid-4-space-2 {
+  width: calc((100% / 4) * 2);
+}
+
+
+
+
+.table {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  width: 90%;
+  margin: auto;
+  font-size: 12px;
+  background-color: rgb(240, 248, 255);
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.table th,
+.table tr:hover {
+  background-color: rgb(168, 218, 213);
+}
+
+
+.text-blue {
+  color: #4400ff;
+}
+
+.text-red {
+  color: #ff0000;
+}

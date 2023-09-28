@@ -1,0 +1,913 @@
+main {
+    padding: 0;
+    background: var(--color5);
+}
+
+.main-header .background {
+    position: relative;
+    overflow: hidden;
+    display: flex
+}
+
+.main-header .background:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    left: 0;
+    bottom: 0;
+}
+
+.main-header .background img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(5px);
+}
+
+.main-header .row.cover {
+    height: 350px;
+    margin-top: -200px;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 0px 40px 40px;
+    opacity: 1;
+    overflow: hidden
+}
+
+.main-header .row.cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+form .radios {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+form .radios label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500
+}
+
+form .radios label span {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #3E3E3E;
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    background: var(--color2)
+}
+
+form .radios label span input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+form .radios label span input:checked~strong {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: #000;
+    border-radius: 100px;
+
+}
+
+.container.body {
+    min-height: 500px;
+}
+
+.body .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    align-items: flex-start;
+}
+
+.body .content .area {
+    width: 800px;
+}
+
+.body .content .sidebar {
+    width: 350px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 15px #0000001A;
+    border: 2px solid #EFEFEF;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+.body .content .sidebar .side {
+    padding: 20px
+}
+
+.body .content .sidebar .side button {
+    width: 100%;
+    height: 45px;
+    border-radius: 33px;
+    border: none;
+    outline: none;
+    background: var(--color3);
+    color: var(--color2);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .4s ease-in-out
+}
+
+.body .content .sidebar .side button:hover {
+    background: var(--color1)
+}
+
+#sidebar-info {
+    padding-bottom: 15px;
+    width: 100%
+}
+
+#sidebar-info>ul {
+    list-style: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#sidebar-info>ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    position: relative
+}
+
+#sidebar-info>ul li:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px dotted #ccc;
+    top: 50%;
+}
+
+#sidebar-info>ul li span {
+    font-weight: 600;
+    z-index: 1;
+    padding-right: 5px;
+    font-size: 13px;
+    background: var(--color2);
+    font-weight: 400
+}
+
+#sidebar-info>ul li strong {
+    font-weight: 700;
+    position: relative;
+    z-index: 9;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+#sidebar-amount>ul {
+    list-style: none;
+}
+
+#sidebar-amount>ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.amount-dv>strong {
+    font-size: 14px;
+    font-weight: 700
+}
+
+.amount-dv>span {
+    font-size: 12px;
+    display: flex;
+    align-items: baseline;
+}
+
+.amount-dv>span>strong {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--color3);
+    margin-left: 5px
+}
+
+.amount-tt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount-tt span {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color3);
+}
+
+.amount-tt strong {
+    font-weight: 700
+}
+
+.side ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    list-style: none
+}
+
+.side ul li img {
+    width: 25px
+}
+
+.side>ul.list {
+    margin-bottom: 60px
+}
+
+.side>ul.list li {
+    display: flex;
+    align-items: baseline;
+    font-size: 13px
+}
+
+
+
+.side>ul.list li i {
+    color: var(--color3);
+    font-size: 20px;
+    margin-right: 10px
+}
+
+.side>ul.list li strong {
+    font-size: 14px
+}
+
+.side h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 0
+}
+
+.options {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: self-start;
+    margin-bottom: 20px;
+}
+
+
+.origin-destiny {
+    box-shadow: 0px 5px 10px #0000001F;
+    border-radius: 9px;
+    opacity: 1;
+    display: inline-flex;
+    min-width: calc(245px - 40px);
+    justify-content: space-between;
+    position: relative;
+    padding: 0px 20px;
+    background: #FFF;
+    margin-right: 15px;
+    height: 53px
+}
+
+
+.origin-destiny button {
+    background: #fff;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.origin-destiny button:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    bottom: 0;
+}
+
+.origin-destiny button:first-child:after {
+    left: 0
+}
+
+.origin-destiny button:last-child:after {
+    right: 0
+}
+
+.origin-destiny button strong {
+    font-size: 17px
+}
+
+.origin-destiny button span {
+    font-size: 11px;
+    color: var(--color3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.origin-destiny input {
+    position: absolute;
+    width: calc(100% - 20px) !important;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    background: #fff;
+    z-index: 9;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    padding-left: 40px;
+}
+
+.origin-destiny svg {
+    width: 10px;
+    fill: var(--color3);
+    z-index: 999
+}
+
+.origin-destiny>span {
+    z-index: 999;
+    font-size: 12px;
+    position: absolute;
+    right: 9px;
+    top: 35%;
+    cursor: pointer
+}
+
+.boarding {
+    width: 250px;
+    box-shadow: 0px 5px 10px #0000001F;
+    border-radius: 9px;
+    opacity: 1;
+    background: #FFF;
+    z-index: 999;
+    position: relative;
+    margin-right: 15px;
+    height: 53px;
+}
+
+.boarding-roundtrip {
+    margin-right: 0;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.boarding-roundtrip:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: #D5D5D5;
+    left: calc(100% - 2px);
+    bottom: 0;
+}
+
+.boarding button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background: #FFF;
+    border: none;
+    border-radius: 9px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative
+}
+
+.boarding button i {
+    margin-left: 25px;
+    font-size: 17px;
+    color: var(--color3);
+    margin-right: 15px
+}
+
+
+.boarding input {
+    position: absolute;
+    width: calc(100% - 20px);
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+    z-index: 9999;
+    padding-left: 20px;
+    outline: none;
+    appearance: none;
+}
+
+.close {
+    right: 9px;
+}
+
+.boarding span {
+    z-index: 999;
+    font-size: 12px;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    outline: none;
+    z-index: 99999
+}
+
+.boarding-volta {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.boarding-volta .close {
+    left: 9px;
+    width: 5px;
+}
+
+.boarding-volta input {
+    right: 0;
+}
+
+.search {
+    box-shadow: 0px 5px 10px #0000001F;
+    border-radius: 9px;
+    opacity: 1;
+    background: #FFF;
+    z-index: 999;
+    position: relative;
+}
+
+.search button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background: #FFF;
+    border: none;
+    border-radius: 9px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative
+}
+
+.search button i {
+    margin-left: 25px;
+    font-size: 17px;
+    color: var(--color3);
+    margin-right: 15px
+}
+
+
+.search input {
+    position: absolute;
+    width: calc(100% - 20px);
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+    z-index: 9999;
+    padding-left: 20px;
+    outline: none;
+    appearance: none;
+}
+
+.search span {
+    z-index: 999;
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 35%;
+    cursor: pointer;
+    ;
+    outline: none;
+    z-index: 99999
+}
+
+
+.passengers {
+    width: 235px;
+    box-shadow: 0px 5px 10px #0000001F;
+    border-radius: 9px;
+    opacity: 1;
+    background: #FFF;
+    margin-right: 15px
+}
+
+.passengers-mult {
+    margin: 0 15px !important;
+}
+
+.passengers button {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 9px;
+    position: relative;
+    font-size: 14px;
+    height: 53px;
+    cursor: pointer
+}
+
+.passengers button i {
+    position: absolute;
+    left: 20px;
+    font-size: 17px;
+    color: var(--color3);
+}
+
+.passengers .quantity {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .4s ease-in-out
+}
+
+.passengers .quantity.open {
+    max-height: 500px;
+    background: #fff;
+    border-radius: 0 0 9px 9px;
+}
+
+.btns {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.btns div:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 20px
+}
+
+.btns div:first-child span {
+    font-size: 14px
+}
+
+.btns div:first-child strong {
+    font-size: 10px;
+    font-weight: 400
+}
+
+.btns div:last-child {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 0 20px
+}
+
+.btns div:last-child button {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid var(--color3);
+    color: var(--color3);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btns div:last-child span {
+    font-size: 14px;
+    width: 40px;
+    text-align: center
+}
+
+.children-months {
+    padding: 23px
+}
+
+.children-months h3 {
+    font-size: 14px;
+    text-align: center
+}
+
+.children-months select {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #aaa;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px
+}
+
+.flights {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-top: 50px
+}
+
+.flights .flight {
+    width: calc(100%);
+    box-shadow: 5px 5px 15px #00000024;
+    border-radius: 16px;
+    background: #FFF;
+    display: flex;
+    align-items: self-start;
+    flex-wrap: wrap;
+    transition: all .4s ease-in-out;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.flights .flight.open {
+    max-height: 1000px !important;
+}
+
+.flights .flight.open .flight-content {
+    display: block;
+}
+
+
+.flights .flight .trecho {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.flights .flight .trecho>div {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 15px 0;
+}
+
+.flights .flight .general-datails {
+    display: flex;
+    height: 100%;
+    align-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+}
+
+.value {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+.flights .flight .button-select {
+    border: none;
+    border-radius: 9px;
+    background: #B9B9B9;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+.flights .flight .button-select input:checked~button {
+    background: var(--color3)
+}
+
+.flights .flight .button-select:hover button {
+    background: var(--color3);
+    cursor: pointer;
+}
+
+.flights .flight .button-select input {
+    opacity: 0;
+    position: absolute
+}
+
+.flights .flight .button-select button {
+    background: #B9B9B9;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-weight: 600;
+    pointer-events: none
+}
+
+.flight .going {
+    display: flex;
+    align-items: center
+}
+
+.flight .going img {
+    margin-right: 10px
+}
+
+.flight .going strong {
+    font-size: 20px;
+    margin-right: 10px
+}
+
+.flight .going span {
+    font-size: 13px;
+    margin-right: 10px
+}
+
+.flight .going div {
+    font-size: 11px;
+    color: #B9B9B9
+}
+
+.vermais {
+    background: none;
+    border: none;
+    font-size: 12px;
+    margin-top: 7px;
+    position: absolute;
+    color: var(--color3);
+    cursor: pointer
+}
+
+.flight .time {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.flight .time .hour {
+    font-size: 23px;
+    font-weight: 700;
+    margin: 0 15px
+}
+
+.flight .acronym {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight .acronym strong {
+    font-size: 18px;
+    color: #6E6E6E
+}
+
+.flight .acronym span {
+    font-size: 10px;
+    color: #6E6E6E
+}
+
+.flight .travel-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.flight .travel-time strong {
+    font-size: 11px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5px
+}
+
+.flight .travel-time span {
+    font-size: 11px;
+    border-top: 2px solid var(--color3);
+    padding: 5px 12px;
+    color: var(--color3)
+}
+
+.flight .baggage {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.flight .baggage span {
+    font-size: 10px;
+    text-align: center
+}
+
+.flight-content {
+    width: 95% !important;
+    display: none;
+    min-height: 100px;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.flight-content .open {
+    display: block;
+}
+
+.flight-content h4 {
+    padding: 10px
+}
+
+.flight-content>div {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px
+}
+
+.flight-content>div h5 {
+    font-size: 15px
+}
+
+.flight-content>div>div {
+    margin-bottom: 15px
+}
+
+.flight-content>div>div p {
+    font-size: 12px;
+    line-height: 1.5
+}
+
+
+/* AUTOCOMPLETE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px Arial;
+}
+
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=text] {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+/* FIM AUTOCOMPLETE */
+
+.firsttrecho {
+
+    border-top: 2px solid #FF0101;
+}
+
+fieldset {
+    padding: 5px;
+}

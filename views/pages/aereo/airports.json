@@ -1,0 +1,2960 @@
+[
+    {
+        "_id": "5c598caba0a88d2927ca035f",
+        "iata": "SDU",
+        "name_pt": "Rio de Janeiro, Aeroporto Santos Dumont",
+        "name_en": "Rio de Janeiro, Aeroporto Santos Dumont",
+        "name_es": "Rio de Janeiro, Aeroporto Santos Dumont",
+        "city": "Rio de Janeiro, Rio de Janeiro, Brasil",
+        "latitude": "-22.8333333333333",
+        "longitude": "-43.25",
+        "activated": true,
+        "tags": [
+            "DE",
+            "SANTOS",
+            "DUMONT",
+            "SDU",
+            "AEROPORTO",
+            "RIO",
+            "JANEIRO"
+        ],
+        "weight": 8,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca035g",
+        "iata": "MIA",
+        "name_pt": "Miame",
+        "name_en": "Miame",
+        "name_es": "Miame",
+        "city": "Miame, EUA",
+        "latitude": "-22.8333333333333",
+        "longitude": "-43.25",
+        "activated": true,
+        "tags": [
+            "DE",
+            "SANTOS",
+            "DUMONT",
+            "SDU",
+            "AEROPORTO",
+            "RIO",
+            "JANEIRO"
+        ],
+        "weight": 8,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0360",
+        "iata": "GRU",
+        "name_pt": "São Paulo, Aeroporto de Guarulhos",
+        "name_en": "São Paulo, Aeroporto de Guarulhos",
+        "name_es": "São Paulo, Aeroporto de Guarulhos",
+        "city": "São Paulo, São Paulo, Brasil",
+        "latitude": "-23.4319444444444",
+        "longitude": "-46.4694444444444",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "PAULO",
+            "GUARULHOS",
+            "AEROPORTO",
+            "GRU"
+        ],
+        "weight": 8,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0361",
+        "iata": "UDI",
+        "name_pt": "Uberlândia, Minas Gerais",
+        "name_en": "Uberlândia, Minas Gerais",
+        "name_es": "Uberlândia, Minas Gerais",
+        "city": "Uberlândia, Minas Gerais, Brasil",
+        "latitude": "-18.8827777777778",
+        "longitude": "-48.2255555555556",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "UDI",
+            "UBERLANDIA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0363",
+        "iata": "SSA",
+        "name_pt": "Salvador, Bahia",
+        "name_en": "Salvador, Bahia",
+        "name_es": "Salvador, Bahia",
+        "city": "Salvador, Bahia, Brasil",
+        "latitude": "-12.9111111111111",
+        "longitude": "-38.3311111111111",
+        "activated": true,
+        "tags": [
+            "LUIS",
+            "SSA",
+            "MAGALHAES",
+            "EDUARDO",
+            "AEROPORTO",
+            "SALVADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0366",
+        "iata": "AAX",
+        "name_pt": "Araxá, Minas Gerais",
+        "name_en": "Araxá, Minas Gerais",
+        "name_es": "Araxá, Minas Gerais",
+        "city": "Araxá, Minas Gerais, Brasil",
+        "latitude": "-19.5680555555556",
+        "longitude": "-46.9291666666667",
+        "activated": true,
+        "tags": [
+            "ARAXA",
+            "AEROPORTO",
+            "AAX"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0367",
+        "iata": "SMT",
+        "name_pt": "Sorriso, Mato Grosso",
+        "name_en": "Sorriso, Mato Grosso",
+        "name_es": "Sorriso, Mato Grosso",
+        "city": "Sorriso, Mato Grosso, Brasil",
+        "latitude": "-12.5432322",
+        "longitude": "-55.7080865",
+        "activated": true,
+        "tags": [
+            "DE",
+            "ADOLINO",
+            "SORRISO",
+            "BEDIN",
+            "AEROPORTO",
+            "SMT",
+            "REGIONAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5efab4ff5979d83d7776c23b",
+        "iata": "GGF",
+        "name_pt": "Almeirim, Aeroporto de Almeirim, Pará",
+        "name_en": "Almeirim, Almeirim Airport, Pará",
+        "name_es": "Almeirim, Aeropuerto Almeirim, Pará",
+        "city": "Almeirim, Pará, Brasil",
+        "latitude": "-1.482318",
+        "longitude": "-52.5888469",
+        "activated": true,
+        "tags": [
+            "Almeirim",
+            "Pará",
+            "GGF"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5efbea2f5979d83d7776c23c",
+        "iata": "BVS",
+        "name_pt": "Breves, Aeroporto de Breves, Pará",
+        "name_en": "Breves, Breves Airport, Pará",
+        "name_es": "Breves, Aeropuerto Breves, Pará",
+        "city": "Breves, Pará, Brasil",
+        "latitude": "-1.63717",
+        "longitude": "-50.4456",
+        "activated": true,
+        "tags": [
+            "Breves",
+            "Pará",
+            "BVS"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5efbed755979d83d7776c23d",
+        "iata": "PTQ",
+        "name_pt": "Porto de Moz, Aeroporto Porto de Moz, Pará",
+        "name_en": "Porto de Moz, Porto de Moz Airport, Pará",
+        "name_es": "Porto de Moz, Aeropuerto Porto de Moz, Pará",
+        "city": "Porto de Moz, Pará, Brasil",
+        "latitude": "-1.7437768",
+        "longitude": "-52.237636",
+        "activated": true,
+        "tags": [
+            "PORTO",
+            "MOZ",
+            "Pará",
+            "PTQ"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5efd3c675979d83d7776c23e",
+        "iata": "EZE",
+        "name_pt": "Aeroporto Internacional de Buenos Aires - Ezeiza",
+        "name_en": "Ministro Pistarini International Airport, Buenos Aires",
+        "name_es": "Aeropuerto Internacional Ministro Pistarini, Buenos Aires",
+        "city": "Buenos Aires, Buenos Aires, Argentina",
+        "latitude": "-34.815",
+        "longitude": "-58.5370171",
+        "activated": true,
+        "tags": [
+            "INTERNACIONAL",
+            "BUENOS",
+            "AIRES",
+            "EZEIZA",
+            "EZE"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5f00e69d4a89ee0790ef246e",
+        "iata": "MDZ",
+        "name_pt": "Mendoza, Aeroporto de Mendoza",
+        "name_en": "Mendoza, Mendoza Airport",
+        "name_es": "Mendoza, Aeropuerto de Mendoza",
+        "city": "Mendoza, Argentina",
+        "latitude": "-12.0240527",
+        "longitude": "-77.112036",
+        "activated": true,
+        "tags": [
+            "MENDOZA",
+            "MDZ",
+            "AEROPORTO"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5f00ea874a89ee0790ef246f",
+        "iata": "ASU",
+        "name_pt": "Assunção, Aeroporto de Assunção",
+        "name_en": "Asunción, Asunción Airport",
+        "name_es": "Asunción, Aeropuerto de Asunción",
+        "city": "Luque, Departamento Central, Paraguai",
+        "latitude": "-25.2416788",
+        "longitude": "-57.51409046",
+        "activated": true,
+        "tags": [
+            "ASUNCIÓN",
+            "ASSUNÇÃO",
+            "ASU",
+            "LUQUE"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5f00eb264a89ee0790ef2470",
+        "iata": "LIM",
+        "name_pt": "Lima, Aeroporto de Lima",
+        "name_en": "Lima, Lima Airport",
+        "name_es": "Lima, Aeropuerto de Lima",
+        "city": "Lima, Lima, Perú",
+        "latitude": "-12.0240527",
+        "longitude": "-77.112036",
+        "activated": true,
+        "tags": [
+            "LIMA",
+            "LIM",
+            "PERÚ"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5f00ec494a89ee0790ef2471",
+        "iata": "MVD",
+        "name_pt": "Montevidéu, Aeroporto de Montevidéu",
+        "name_en": "Montevidéu, Montevidéu Airport",
+        "name_es": "Montevidéu, Aeropuerto de Montevidéu",
+        "city": "Ciudad de la Costa, Departamento de Canelones, Uruquai",
+        "latitude": "-34.8370966",
+        "longitude": "-56.0161798",
+        "activated": true,
+        "tags": [
+            "MONTEVIDÉU",
+            "LA COSTA",
+            "CANELONES",
+            "MVD"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0368",
+        "iata": "PGZ",
+        "name_pt": "Ponta Grossa, Paraná",
+        "name_en": "Ponta Grossa, Paraná",
+        "name_es": "Ponta Grossa, Paraná",
+        "city": "Ponta Grossa, Parana, Brasil",
+        "latitude": "-25.1104",
+        "longitude": "-50.0838",
+        "activated": true,
+        "tags": [
+            "PONTA",
+            "PGZ",
+            "AMILTON",
+            "AEROPORTO",
+            "COMANDANTE",
+            "GROSSA",
+            "BERALDO",
+            "ANTONIO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0369",
+        "iata": "AJU",
+        "name_pt": "Aracaju, Sergipe",
+        "name_en": "Aracaju, Sergipe",
+        "name_es": "Aracaju, Sergipe",
+        "city": "Aracaju, Sergipe, Brasil",
+        "latitude": "-10985",
+        "longitude": "-37.073333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "ARACAJU",
+            "AJU",
+            "SANTA",
+            "MARIA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036a",
+        "iata": "AFL",
+        "name_pt": "Alta Floresta, Mato Grosso",
+        "name_en": "Alta Floresta, Mato Grosso",
+        "name_es": "Alta Floresta, Mato Grosso",
+        "city": "Alta Floresta, Mato Grosso, Brasil",
+        "latitude": "-9.866111",
+        "longitude": "-56.104444",
+        "activated": true,
+        "tags": [
+            "ALTA",
+            "AEROPORTO",
+            "AFL",
+            "FLORESTA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036b",
+        "iata": "JJD",
+        "name_pt": "Jericoacoara, Ceará",
+        "name_en": "Jericoacoara, Ceará",
+        "name_es": "Jericoacoara, Ceará",
+        "city": "Jericoacoara, Ceará, Brasil",
+        "latitude": "-2895",
+        "longitude": "-40.4491666667",
+        "activated": true,
+        "tags": [
+            "JERICOACOARA",
+            "JJD",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036c",
+        "iata": "AQA",
+        "name_pt": "Araraquara, São Paulo",
+        "name_en": "Araraquara, São Paulo",
+        "name_es": "Araraquara, São Paulo",
+        "city": "Araraquara, São Paulo, Brasil",
+        "latitude": "-21.803889",
+        "longitude": "-48.139722",
+        "activated": true,
+        "tags": [
+            "AQA",
+            "AEROPORTO",
+            "ARARAQUARA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036d",
+        "iata": "ARU",
+        "name_pt": "Araçatuba, São Paulo",
+        "name_en": "Araçatuba, São Paulo",
+        "name_es": "Araçatuba, São Paulo",
+        "city": "Araçatuba, São Paulo, Brasil",
+        "latitude": "-21.143611",
+        "longitude": "-50.425833",
+        "activated": true,
+        "tags": [
+            "ARU",
+            "AEROPORTO",
+            "ARACATUBA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036e",
+        "iata": "ATM",
+        "name_pt": "Altamira, Pará",
+        "name_en": "Altamira, Pará",
+        "name_es": "Altamira, Pará",
+        "city": "Altamira, Pará, Brasil",
+        "latitude": "-3.25388888888889",
+        "longitude": "-52.2538888888889",
+        "activated": true,
+        "tags": [
+            "ALTAMIRA",
+            "AEROPORTO",
+            "ATM"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca036f",
+        "iata": "AUX",
+        "name_pt": "Araguaina, Tocantins",
+        "name_en": "Araguaina, Tocantins",
+        "name_es": "Araguaina, Tocantins",
+        "city": "Araguaina, Tocantins, Brasil",
+        "latitude": "-7.2",
+        "longitude": "-48.2",
+        "activated": true,
+        "tags": [
+            "ARAGUAINA",
+            "AUX",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0370",
+        "iata": "BAU",
+        "name_pt": "Bauru, São Paulo",
+        "name_en": "Bauru, São Paulo",
+        "name_es": "Bauru, São Paulo",
+        "city": "Bauru, São Paulo, Brasil",
+        "latitude": "-22.3333333333333",
+        "longitude": "-49.05",
+        "activated": true,
+        "tags": [
+            "BAU",
+            "AEROPORTO",
+            "BAURU"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0371",
+        "iata": "BAZ",
+        "name_pt": "Barcelos, Amazonas",
+        "name_en": "Barcelos, Amazonas",
+        "name_es": "Barcelos, Amazonas",
+        "city": "Barcelos, Amazonas, Brasil",
+        "latitude": "-0.980833",
+        "longitude": "-62.918889",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "BARBELOS",
+            "BARCELOS",
+            "BAZ"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0372",
+        "iata": "BEL",
+        "name_pt": "Belém, Pará",
+        "name_en": "Belém, Pará",
+        "name_es": "Belém, Pará",
+        "city": "Belém, Pará, Brasil",
+        "latitude": "-1.38361111111111",
+        "longitude": "-48.4686111111111",
+        "activated": true,
+        "tags": [
+            "VAL",
+            "DE",
+            "BELEM",
+            "AEROPORTO",
+            "BEL",
+            "CANS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0373",
+        "iata": "CNF",
+        "name_pt": "Belo Horizonte, Aeroporto Confins",
+        "name_en": "Belo Horizonte, Aeroporto Confins",
+        "name_es": "Belo Horizonte, Aeroporto Confins",
+        "city": "Belo Horizonte, Minas Gerais, Brasil",
+        "latitude": "-19.633333",
+        "longitude": "-43.968611",
+        "activated": true,
+        "tags": [
+            "NEVES",
+            "AEROPORTO",
+            "TANCREDO",
+            "BELO",
+            "HORIZONTE",
+            "CNF"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0374",
+        "iata": "PLU",
+        "name_pt": "Belo Horizonte, Aeroporto Pampulha",
+        "name_en": "Belo Horizonte, Aeroporto Pampulha",
+        "name_es": "Belo Horizonte, Aeroporto Pampulha",
+        "city": "Belo Horizonte, Minas Gerais, Brasil",
+        "latitude": "-19.7555555555556",
+        "longitude": "-43.75",
+        "activated": true,
+        "tags": [
+            "PAMPULHA",
+            "AEROPORTO",
+            "PLU",
+            "BELO",
+            "DOMESTIC",
+            "HORIZONTE"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0375",
+        "iata": "BPG",
+        "name_pt": "Barra do Garcas, Mato Grosso",
+        "name_en": "Barra do Garcas, Mato Grosso",
+        "name_es": "Barra do Garcas, Mato Grosso",
+        "city": "Barra do Garcas, Mato Grosso, Brasil",
+        "latitude": "-15.85",
+        "longitude": "-52.383333",
+        "activated": true,
+        "tags": [
+            "BARRA",
+            "AEROPORTO",
+            "BPG",
+            "DO",
+            "GARCAS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0376",
+        "iata": "BPS",
+        "name_pt": "Porto Seguro, Bahia",
+        "name_en": "Porto Seguro, Bahia",
+        "name_es": "Porto Seguro, Bahia",
+        "city": "Porto Seguro, Bahia, Brasil",
+        "latitude": "-16.4386111111111",
+        "longitude": "-39.0808333333333",
+        "activated": true,
+        "tags": [
+            "PORTO",
+            "BPS",
+            "AEROPORTO",
+            "SEGURO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0377",
+        "iata": "BRA",
+        "name_pt": "Barreiras, Bahia",
+        "name_en": "Barreiras, Bahia",
+        "name_es": "Barreiras, Bahia",
+        "city": "Barreiras, Bahia, Brasil",
+        "latitude": "-12.073056",
+        "longitude": "-45.008333",
+        "activated": true,
+        "tags": [
+            "BRA",
+            "AEROPORTO",
+            "BARREIRAS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0378",
+        "iata": "BSB",
+        "name_pt": "Brasília, Distrito Federal",
+        "name_en": "Brasília, Distrito Federal",
+        "name_es": "Brasília, Distrito Federal",
+        "city": "Brasília, Distrito Federal, Brasil",
+        "latitude": "-15.862222",
+        "longitude": "-47.912222",
+        "activated": true,
+        "tags": [
+            "PRESIDENTE",
+            "BSB",
+            "KUBITSCHEK",
+            "BRASILIA",
+            "AEROPORTO",
+            "JUSCELINO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0379",
+        "iata": "BVB",
+        "name_pt": "Boa Vista, Roraima",
+        "name_en": "Boa Vista, Roraima",
+        "name_es": "Boa Vista, Roraima",
+        "city": "Boa Vista, Roraima, Brasil",
+        "latitude": "2.83333333333333",
+        "longitude": "-60.6833333333333",
+        "activated": true,
+        "tags": [
+            "VISTA",
+            "BOA",
+            "AEROPORTO",
+            "BVB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037a",
+        "iata": "BYO",
+        "name_pt": "Bonito, Mato Grosso do Sul",
+        "name_en": "Bonito, Mato Grosso do Sul",
+        "name_es": "Bonito, Mato Grosso do Sul",
+        "city": "Bonito, Mato Grosso do Sul, Brasil",
+        "latitude": "-21.229444",
+        "longitude": "-56.456111",
+        "activated": true,
+        "tags": [
+            "DE",
+            "AEROPORTO",
+            "BYO",
+            "BONITO",
+            "REGIONAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037b",
+        "iata": "BVH",
+        "name_pt": "Vilhena, Rondônia",
+        "name_en": "Vilhena, Rondônia",
+        "name_es": "Vilhena, Rondônia",
+        "city": "Vilhena, Rondônia, Brasil",
+        "latitude": "-12.701389",
+        "longitude": "-60.093056",
+        "activated": true,
+        "tags": [
+            "VILHENA",
+            "BVH",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037c",
+        "iata": "CAC",
+        "name_pt": "Cascavel, Paraná",
+        "name_en": "Cascavel, Paraná",
+        "name_es": "Cascavel, Paraná",
+        "city": "Cascavel, Parana, Brasil",
+        "latitude": "-24.996389",
+        "longitude": "-53.506111",
+        "activated": true,
+        "tags": [
+            "CAC",
+            "AEROPORTO",
+            "CASCAVEL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037d",
+        "iata": "CAW",
+        "name_pt": "Campos dos Goytacazes, Rio de Janeiro",
+        "name_en": "Campos dos Goytacazes, Rio de Janeiro",
+        "name_es": "Campos dos Goytacazes, Rio de Janeiro",
+        "city": "Campos dos Goytacazes, Rio de Janeiro, Brasil",
+        "latitude": "-21.700556",
+        "longitude": "-41.307222",
+        "activated": true,
+        "tags": [
+            "BARTOLOMEU",
+            "LISANDRO",
+            "GOYTACAZES",
+            "AEROPORTO",
+            "CAW",
+            "CAMPOS",
+            "DOS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037e",
+        "iata": "CCM",
+        "name_pt": "Criciúma, Santa Catarina",
+        "name_en": "Criciúma, Santa Catarina",
+        "name_es": "Criciúma, Santa Catarina",
+        "city": "Criciúma, Santa Catarina, Brasil",
+        "latitude": "-28.7",
+        "longitude": "-49.3666666666667",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "CRICIUMA",
+            "CCM"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca037f",
+        "iata": "CDJ",
+        "name_pt": "Conceicao do Araguaia, Pará",
+        "name_en": "Conceicao do Araguaia, Pará",
+        "name_es": "Conceicao do Araguaia, Pará",
+        "city": "Conceicao do Araguaia, Pará, Brasil",
+        "latitude": "-8.348333",
+        "longitude": "-49.3025",
+        "activated": true,
+        "tags": [
+            "CONCEICAO",
+            "AEROPORTO",
+            "CDJ",
+            "DO",
+            "ARAGUAIA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0380",
+        "iata": "CFB",
+        "name_pt": "Cabo Frio, Rio de Janeiro",
+        "name_en": "Cabo Frio, Rio de Janeiro",
+        "name_es": "Cabo Frio, Rio de Janeiro",
+        "city": "Cabo Frio, Rio de Janeiro, Brasil",
+        "latitude": "-22925",
+        "longitude": "-42.078611",
+        "activated": true,
+        "tags": [
+            "FRIO",
+            "CABO",
+            "AEROPORTO",
+            "CFB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0381",
+        "iata": "CGB",
+        "name_pt": "Cuiabá, Mato Grosso",
+        "name_en": "Cuiabá, Mato Grosso",
+        "name_es": "Cuiabá, Mato Grosso",
+        "city": "Cuiabá, Mato Grosso, Brasil",
+        "latitude": "-15.649722",
+        "longitude": "-56.116944",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "RONDON",
+            "CUIABA",
+            "MARECHAL",
+            "CGB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0382",
+        "iata": "CGR",
+        "name_pt": "Campo Grande, Mato Grosso do Sul",
+        "name_en": "Campo Grande, Mato Grosso do Sul",
+        "name_es": "Campo Grande, Mato Grosso do Sul",
+        "city": "Campo Grande, Mato Grosso do Sul, Brasil",
+        "latitude": "-20.468889",
+        "longitude": "-54.669722",
+        "activated": true,
+        "tags": [
+            "CAMPO",
+            "GRANDE",
+            "AEROPORTO",
+            "CGR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0383",
+        "iata": "CIZ",
+        "name_pt": "Coari, Amazonas",
+        "name_en": "Coari, Amazonas",
+        "name_es": "Coari, Amazonas",
+        "city": "Coari, Amazonas, Brasil",
+        "latitude": "-4.083333",
+        "longitude": "-63.133333",
+        "activated": true,
+        "tags": [
+            "CIZ",
+            "AEROPORTO",
+            "COARI"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0384",
+        "iata": "CLN",
+        "name_pt": "Carolina, Maranhão",
+        "name_en": "Carolina, Maranhão",
+        "name_es": "Carolina, Maranhão",
+        "city": "Carolina, Maranhão, Brasil",
+        "latitude": "-7.333333",
+        "longitude": "-47.433333",
+        "activated": true,
+        "tags": [
+            "CLN",
+            "CAROLINA",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0385",
+        "iata": "CLV",
+        "name_pt": "Caldas Novas, Goiás",
+        "name_en": "Caldas Novas, Goiás",
+        "name_es": "Caldas Novas, Goiás",
+        "city": "Caldas Novas, Goiás, Brasil",
+        "latitude": "-17725",
+        "longitude": "-48.61",
+        "activated": true,
+        "tags": [
+            "CALDAS",
+            "AEROPORTO",
+            "NOVAS",
+            "CLV"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0386",
+        "iata": "CMG",
+        "name_pt": "Corumbá, Mato Grosso do Sul",
+        "name_en": "Corumbá, Mato Grosso do Sul",
+        "name_es": "Corumbá, Mato Grosso do Sul",
+        "city": "Corumbá, Mato Grosso do Sul, Brasil",
+        "latitude": "-19.011667",
+        "longitude": "-57.670556",
+        "activated": true,
+        "tags": [
+            "CORUMBA",
+            "AEROPORTO",
+            "CMG"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0387",
+        "iata": "CPV",
+        "name_pt": "Campina Grande, Paraíba",
+        "name_en": "Campina Grande, Paraíba",
+        "name_es": "Campina Grande, Paraíba",
+        "city": "Campina Grande, Paraíba, Brasil",
+        "latitude": "-7.266667",
+        "longitude": "-35.9",
+        "activated": true,
+        "tags": [
+            "JOAO",
+            "GRANDE",
+            "CAMPINA",
+            "AEROPORTO",
+            "CPV",
+            "SUASSUNA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0388",
+        "iata": "CWB",
+        "name_pt": "Curitiba, Paraná",
+        "name_en": "Curitiba, Paraná",
+        "name_es": "Curitiba, Paraná",
+        "city": "Curitiba, Parana, Brasil",
+        "latitude": "-25.5275",
+        "longitude": "-49.173056",
+        "activated": true,
+        "tags": [
+            "CURITIBA",
+            "AEROPORTO",
+            "AFONSO",
+            "PENA",
+            "CWB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0389",
+        "iata": "CXJ",
+        "name_pt": "Caxias do Sul, Rio Grande do Sul",
+        "name_en": "Caxias do Sul, Rio Grande do Sul",
+        "name_es": "Caxias do Sul, Rio Grande do Sul",
+        "city": "Caxias do Sul, Rio Grande do Sul, Brasil",
+        "latitude": "-29195",
+        "longitude": "-51.189167",
+        "activated": true,
+        "tags": [
+            "CAMPO",
+            "CAXIAS",
+            "BUGRES",
+            "CXJ",
+            "AEROPORTO",
+            "DOS",
+            "DO",
+            "SUL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038a",
+        "iata": "CZS",
+        "name_pt": "Cruzeiro do Sul, Acre",
+        "name_en": "Cruzeiro do Sul, Acre",
+        "name_es": "Cruzeiro do Sul, Acre",
+        "city": "Cruzeiro do Sul, Acre, Brasil",
+        "latitude": "-7.599444",
+        "longitude": "-72.769722",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "CRUZEIRO",
+            "DO",
+            "SUL",
+            "CZS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038b",
+        "iata": "DIQ",
+        "name_pt": "Divinópolis, Minas Gerais",
+        "name_en": "Divinópolis, Minas Gerais",
+        "name_es": "Divinópolis, Minas Gerais",
+        "city": "Divinópolis, Minas Gerais, Brasil",
+        "latitude": "-20.180556",
+        "longitude": "-44.869444",
+        "activated": true,
+        "tags": [
+            "BRIGADEIRO",
+            "AEROPORTO",
+            "DIVINOPOLIS",
+            "DIQ",
+            "CABRAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038c",
+        "iata": "DOU",
+        "name_pt": "Dourados, Mato Grosso do Sul",
+        "name_en": "Dourados, Mato Grosso do Sul",
+        "name_es": "Dourados, Mato Grosso do Sul",
+        "city": "Dourados, Mato Grosso do Sul, Brasil",
+        "latitude": "-22.233333",
+        "longitude": "-54.766667",
+        "activated": true,
+        "tags": [
+            "DOURADOS",
+            "AEROPORTO",
+            "DOU"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038d",
+        "iata": "ERM",
+        "name_pt": "Erechim, Rio Grande do Sul",
+        "name_en": "Erechim, Rio Grande do Sul",
+        "name_es": "Erechim, Rio Grande do Sul",
+        "city": "Erechim, Rio Grande do Sul, Brasil",
+        "latitude": "-27.6594444444444",
+        "longitude": "-52.2755555555556",
+        "activated": true,
+        "tags": [
+            "ERM",
+            "ERECHIM",
+            "AEROPORTO",
+            "COMANDANTE",
+            "KRAEMER"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038e",
+        "iata": "ERN",
+        "name_pt": "Eirunepe, Amazonas",
+        "name_en": "Eirunepe, Amazonas",
+        "name_es": "Eirunepe, Amazonas",
+        "city": "Eirunepe, Amazonas, Brasil",
+        "latitude": "-6.666667",
+        "longitude": "-69.916667",
+        "activated": true,
+        "tags": [
+            "ERN",
+            "EIRUNEPE",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca038f",
+        "iata": "FEC",
+        "name_pt": "Feira de Santana, Bahia",
+        "name_en": "Feira de Santana, Bahia",
+        "name_es": "Feira de Santana, Bahia",
+        "city": "Feira de Santana, Bahia, Brasil",
+        "latitude": "-12.25",
+        "longitude": "-38.95",
+        "activated": true,
+        "tags": [
+            "DE",
+            "SANTANA",
+            "FEIRA",
+            "FEC",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0390",
+        "iata": "FEN",
+        "name_pt": "Fernando de Noronha, Pernambuco",
+        "name_en": "Fernando de Noronha, Pernambuco",
+        "name_es": "Fernando de Noronha, Pernambuco",
+        "city": "Fernando de Noronha, Pernambuco, Brasil",
+        "latitude": "-3.85",
+        "longitude": "-32.416667",
+        "activated": true,
+        "tags": [
+            "DE",
+            "FERNANDO",
+            "NORONHA",
+            "AEROPORTO",
+            "FEN"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0391",
+        "iata": "FLN",
+        "name_pt": "Florianópolis, Santa Catarina",
+        "name_en": "Florianópolis, Santa Catarina",
+        "name_es": "Florianópolis, Santa Catarina",
+        "city": "Florianópolis, Santa Catarina, Brasil",
+        "latitude": "-27.6705555555556",
+        "longitude": "-48.5472222222222",
+        "activated": true,
+        "tags": [
+            "LUZ",
+            "HERCILIO",
+            "AEROPORTO",
+            "FLN",
+            "FLORIANOPOLIS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0392",
+        "iata": "CFC",
+        "name_pt": "Caçador, Santa Catarina",
+        "name_en": "Caçador, Santa Catarina",
+        "name_es": "Caçador, Santa Catarina",
+        "city": "Florianópolis, Santa Catarina, Brasil",
+        "latitude": "-26.7833333333333",
+        "longitude": "-51",
+        "activated": true,
+        "tags": [
+            "CACADOR",
+            "CFC",
+            "AEROPORTO",
+            "FLORIANOPOLIS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0393",
+        "iata": "FOR",
+        "name_pt": "Fortaleza, Ceará",
+        "name_en": "Fortaleza, Ceará",
+        "name_es": "Fortaleza, Ceará",
+        "city": "Fortaleza, Ceará, Brasil",
+        "latitude": "-3.775833",
+        "longitude": "-38.532222",
+        "activated": true,
+        "tags": [
+            "FORTALEZA",
+            "AEROPORTO",
+            "FOR",
+            "PINTO",
+            "MARTINS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0394",
+        "iata": "GEL",
+        "name_pt": "Santo Angelo, Rio Grande do Sul",
+        "name_en": "Santo Angelo, Rio Grande do Sul",
+        "name_es": "Santo Angelo, Rio Grande do Sul",
+        "city": "Santo Angelo, Rio Grande do Sul, Brasil",
+        "latitude": "-28.2666666666667",
+        "longitude": "-54.2666666666667",
+        "activated": true,
+        "tags": [
+            "SEPE",
+            "TIARAJU",
+            "AEROPORTO",
+            "ANGELO",
+            "SANTO",
+            "GEL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0395",
+        "iata": "GPB",
+        "name_pt": "Guarapuava, Paraná",
+        "name_en": "Guarapuava, Paraná",
+        "name_es": "Guarapuava, Paraná",
+        "city": "Guarapuava, Parana, Brasil",
+        "latitude": "-25.333333",
+        "longitude": "-51.5",
+        "activated": true,
+        "tags": [
+            "FARIA",
+            "AEROPORTO",
+            "TANCREDO",
+            "GPB",
+            "THOMAZ",
+            "GUARAPUAVA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0396",
+        "iata": "GRP",
+        "name_pt": "Gurupi, Tocantins",
+        "name_en": "Gurupi, Tocantins",
+        "name_es": "Gurupi, Tocantins",
+        "city": "Gurupi, Tocantins, Brasil",
+        "latitude": "-11.666667",
+        "longitude": "-49.216667",
+        "activated": true,
+        "tags": [
+            "GRP",
+            "GURUPI",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0397",
+        "iata": "GYN",
+        "name_pt": "Goiânia, Goiás",
+        "name_en": "Goiânia, Goiás",
+        "name_es": "Goiânia, Goiás",
+        "city": "Goiânia, Goiás, Brasil",
+        "latitude": "-16.629444",
+        "longitude": "-49.226111",
+        "activated": true,
+        "tags": [
+            "GENOVEVA",
+            "AEROPORTO",
+            "GOIANIA",
+            "SANTA",
+            "GYN"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0398",
+        "iata": "GVR",
+        "name_pt": "Governador Valadares, Minas Gerais",
+        "name_en": "Governador Valadares, Minas Gerais",
+        "name_es": "Governador Valadares, Minas Gerais",
+        "city": "Governador Valadares, Minas Gerais, Brasil",
+        "latitude": "-18.850278",
+        "longitude": "-41.933333",
+        "activated": true,
+        "tags": [
+            "GVR",
+            "AEROPORTO",
+            "VALADARES",
+            "GOVERNADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca0399",
+        "iata": "IGU",
+        "name_pt": "Foz do Iguaçu, Paraná",
+        "name_en": "Foz do Iguaçu, Paraná",
+        "name_es": "Foz do Iguaçu, Paraná",
+        "city": "Foz do Iguaçu, Parana, Brasil",
+        "latitude": "-25.6833333333333",
+        "longitude": "-54.45",
+        "activated": true,
+        "tags": [
+            "FOZ",
+            "CATARATAS",
+            "IGU",
+            "AEROPORTO",
+            "DO",
+            "IGUACU"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039a",
+        "iata": "IMP",
+        "name_pt": "Imperatriz, Maranhão",
+        "name_en": "Imperatriz, Maranhão",
+        "name_es": "Imperatriz, Maranhão",
+        "city": "Imperatriz, Maranhão, Brasil",
+        "latitude": "-5.530278",
+        "longitude": "-47.457778",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "IMPERATRIZ",
+            "IMP"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039b",
+        "iata": "IPN",
+        "name_pt": "Ipatinga, Minas Gerais",
+        "name_en": "Ipatinga, Minas Gerais",
+        "name_es": "Ipatinga, Minas Gerais",
+        "city": "Ipatinga, Minas Gerais, Brasil",
+        "latitude": "-19.47",
+        "longitude": "-42.4875",
+        "activated": true,
+        "tags": [
+            "USIMINAS",
+            "IPN",
+            "AEROPORTO",
+            "IPATINGA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039c",
+        "iata": "IOS",
+        "name_pt": "Ilhéus, Bahia",
+        "name_en": "Ilhéus, Bahia",
+        "name_es": "Ilhéus, Bahia",
+        "city": "Ilhéus, Bahia, Brasil",
+        "latitude": "-14.8158333333333",
+        "longitude": "-39.0333333333333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "AMADO",
+            "JORGE",
+            "ILHEUS",
+            "IOS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039d",
+        "iata": "ITB",
+        "name_pt": "Itaituba, Pará",
+        "name_en": "Itaituba, Pará",
+        "name_es": "Itaituba, Pará",
+        "city": "Itaituba, Pará, Brasil",
+        "latitude": "-4.242222",
+        "longitude": "-56.000833",
+        "activated": true,
+        "tags": [
+            "ITB",
+            "AEROPORTO",
+            "ITAITUBA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039e",
+        "iata": "JCB",
+        "name_pt": "Joaçaba, Santa Catarina",
+        "name_en": "Joaçaba, Santa Catarina",
+        "name_es": "Joaçaba, Santa Catarina",
+        "city": "Joacaba, Santa Catarina, Brasil",
+        "latitude": "-27.1666666666667",
+        "longitude": "-51.5166666666667",
+        "activated": true,
+        "tags": [
+            "JOACABA",
+            "AEROPORTO",
+            "JCB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca039f",
+        "iata": "JDO",
+        "name_pt": "Juazeiro do Norte, Ceará",
+        "name_en": "Juazeiro do Norte, Ceará",
+        "name_es": "Juazeiro do Norte, Ceará",
+        "city": "Juazeiro do Norte, Ceará, Brasil",
+        "latitude": "-7.2",
+        "longitude": "-39.316667",
+        "activated": true,
+        "tags": [
+            "NORTE",
+            "CARIRI",
+            "JDO",
+            "AEROPORTO",
+            "DO",
+            "JUAZEIRO",
+            "REGIONAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a0",
+        "iata": "JPR",
+        "name_pt": "Ji Parana, Rondônia",
+        "name_en": "Ji Parana, Rondônia",
+        "name_es": "Ji Parana, Rondônia",
+        "city": "Ji Parana, Rondônia, Brasil",
+        "latitude": "-8.05",
+        "longitude": "-62.8666666666667",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "JIPARANA",
+            "JPR",
+            "PARANA",
+            "JI"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a1",
+        "iata": "JDF",
+        "name_pt": "Juiz de Fora, Minas Gerais",
+        "name_en": "Juiz de Fora, Minas Gerais",
+        "name_es": "Juiz de Fora, Minas Gerais",
+        "city": "Juiz de Fora, Minas Gerais, Brasil",
+        "latitude": "-21.7925",
+        "longitude": "-43385",
+        "activated": true,
+        "tags": [
+            "DE",
+            "ASSIS",
+            "AEROPORTO",
+            "FRANCISCO",
+            "FORA",
+            "JDF",
+            "JUIZ"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a2",
+        "iata": "JPA",
+        "name_pt": "João Pessoa, Paraíba",
+        "name_en": "João Pessoa, Paraíba",
+        "name_es": "João Pessoa, Paraíba",
+        "city": "João Pessoa, Paraíba, Brasil",
+        "latitude": "-7.146389",
+        "longitude": "-34.951944",
+        "activated": true,
+        "tags": [
+            "PESSOA",
+            "JOAO",
+            "CASTRO",
+            "AEROPORTO",
+            "PINTO",
+            "JPA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a3",
+        "iata": "LEC",
+        "name_pt": "Lençóis, Bahia",
+        "name_en": "Lençóis, Bahia",
+        "name_es": "Lençóis, Bahia",
+        "city": "Lençóis, Bahia, Brasil",
+        "latitude": "-12.48",
+        "longitude": "-41.281111",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "DIAMANTINA",
+            "LENCOIS",
+            "LEC",
+            "CHAPADA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a4",
+        "iata": "JOI",
+        "name_pt": "Joinville, Santa Catarina",
+        "name_en": "Joinville, Santa Catarina",
+        "name_es": "Joinville, Santa Catarina",
+        "city": "Joinville, Santa Catarina, Brasil",
+        "latitude": "-26.223333",
+        "longitude": "-48.800833",
+        "activated": true,
+        "tags": [
+            "LAURO",
+            "DE",
+            "JOI",
+            "AEROPORTO",
+            "CARNEIRO",
+            "JOINVILLE",
+            "LOYOLA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a5",
+        "iata": "MAO",
+        "name_pt": "Manaus, Amazonas",
+        "name_en": "Manaus, Amazonas",
+        "name_es": "Manaus, Amazonas",
+        "city": "Manaus, Amazonas, Brasil",
+        "latitude": "-3.03861111111111",
+        "longitude": "-60.0472222222222",
+        "activated": true,
+        "tags": [
+            "EDUARDO",
+            "AEROPORTO",
+            "MANAUS",
+            "MAO",
+            "GOMES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a6",
+        "iata": "LDB",
+        "name_pt": "Londrina, Paraná",
+        "name_en": "Londrina, Paraná",
+        "name_es": "Londrina, Paraná",
+        "city": "Londrina, Parana, Brasil",
+        "latitude": "-23.329722",
+        "longitude": "-51.136111",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "LONDRINA",
+            "LDB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a7",
+        "iata": "LAJ",
+        "name_pt": "Lages, Santa Catarina",
+        "name_en": "Lages, Santa Catarina",
+        "name_es": "Lages, Santa Catarina",
+        "city": "Lages, Santa Catarina, Brasil",
+        "latitude": "-27.773333",
+        "longitude": "-50.283056",
+        "activated": true,
+        "tags": [
+            "LAJ",
+            "AEROPORTO",
+            "LAGES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a8",
+        "iata": "MEA",
+        "name_pt": "Macaé, Rio de Janeiro",
+        "name_en": "Macaé, Rio de Janeiro",
+        "name_es": "Macaé, Rio de Janeiro",
+        "city": "Macaé, Rio de Janeiro, Brasil",
+        "latitude": "-22.342222",
+        "longitude": "-41.763333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "MACAE",
+            "MEA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03a9",
+        "iata": "MCP",
+        "name_pt": "Macapá, Amapá",
+        "name_en": "Macapá, Amapá",
+        "name_es": "Macapá, Amapá",
+        "city": "Macapá, Amapá, Brasil",
+        "latitude": "0.0525",
+        "longitude": "-51.0675",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "MACAPA",
+            "MCP"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03aa",
+        "iata": "MGF",
+        "name_pt": "Maringá, Paraná",
+        "name_en": "Maringá, Paraná",
+        "name_es": "Maringá, Paraná",
+        "city": "Maringá, Parana, Brasil",
+        "latitude": "-23.439444",
+        "longitude": "-51.906389",
+        "activated": true,
+        "tags": [
+            "DE",
+            "AEROPORTO",
+            "MARINGA",
+            "MGF",
+            "REGIONAL",
+            "SBMG"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03ab",
+        "iata": "MII",
+        "name_pt": "Marília, São Paulo",
+        "name_en": "Marília, São Paulo",
+        "name_es": "Marília, São Paulo",
+        "city": "Marília, São Paulo, Brasil",
+        "latitude": "-22.195278",
+        "longitude": "-49.926111",
+        "activated": true,
+        "tags": [
+            "FRANK",
+            "MILENKOVICH",
+            "MILOYE",
+            "AEROPORTO",
+            "MARILIA",
+            "MII"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03ac",
+        "iata": "MOC",
+        "name_pt": "Montes Claros, Minas Gerais",
+        "name_en": "Montes Claros, Minas Gerais",
+        "name_es": "Montes Claros, Minas Gerais",
+        "city": "Montes Claros, Minas Gerais, Brasil",
+        "latitude": "-16.704444",
+        "longitude": "-43.820278",
+        "activated": true,
+        "tags": [
+            "MOC",
+            "MONTES",
+            "AEROPORTO",
+            "CLAROS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03ad",
+        "iata": "MAB",
+        "name_pt": "Marabá, Pará",
+        "name_en": "Marabá, Pará",
+        "name_es": "Marabá, Pará",
+        "city": "Marabá, Pará, Brasil",
+        "latitude": "-5.3675",
+        "longitude": "-49.137778",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "MARABA",
+            "MAB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03ae",
+        "iata": "MCZ",
+        "name_pt": "Maceió, Alagoas",
+        "name_en": "Maceió, Alagoas",
+        "name_es": "Maceió, Alagoas",
+        "city": "Maceió, Alagoas, Brasil",
+        "latitude": "-9.511667",
+        "longitude": "-35.8",
+        "activated": true,
+        "tags": [
+            "MACEIO",
+            "MCZ",
+            "AEROPORTO",
+            "PALMARES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03af",
+        "iata": "MEU",
+        "name_pt": "Almeirim, Aeroporto Monte Dourado, Pará",
+        "name_en": "Almeirim, Monte Dourado Airport, Pará",
+        "name_es": "Almeirim, Aeropuerto Monte Dourado, Pará",
+        "city": "Monte Dourado, Pará, Brasil",
+        "latitude": "-0.883333",
+        "longitude": "-52.583333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "MEU",
+            "DOURADO",
+            "MONTE"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b0",
+        "iata": "NAT",
+        "name_pt": "Natal, Rio Grande do Norte",
+        "name_en": "Natal, Rio Grande do Norte",
+        "name_es": "Natal, Rio Grande do Norte",
+        "city": "Natal, Rio Grande do Norte, Brasil",
+        "latitude": "-5.908056",
+        "longitude": "-35.248889",
+        "activated": true,
+        "tags": [
+            "NAT",
+            "DE",
+            "ALUIZIO",
+            "NATAL",
+            "AEROPORTO",
+            "ALVES",
+            "GOVERNADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b1",
+        "iata": "MQH",
+        "name_pt": "Minacu, Goiás",
+        "name_en": "Minacu, Goiás",
+        "name_es": "Minacu, Goiás",
+        "city": "Minacu, Goiás, Brasil",
+        "latitude": "-13.533333",
+        "longitude": "-48.233333",
+        "activated": true,
+        "tags": [
+            "MQH",
+            "AEROPORTO",
+            "MINACU"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b2",
+        "iata": "OPS",
+        "name_pt": "Sinop, Mato Grosso",
+        "name_en": "Sinop, Mato Grosso",
+        "name_es": "Sinop, Mato Grosso",
+        "city": "Sinop, Mato Grosso, Brasil",
+        "latitude": "-11854",
+        "longitude": "-55592",
+        "activated": true,
+        "tags": [
+            "OPS",
+            "AEROPORTO",
+            "SINOP"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b3",
+        "iata": "NVT",
+        "name_pt": "Navegantes, Santa Catarina",
+        "name_en": "Navegantes, Santa Catarina",
+        "name_es": "Navegantes, Santa Catarina",
+        "city": "Navegantes, Santa Catarina, Brasil",
+        "latitude": "-26.879722",
+        "longitude": "-48.648056",
+        "activated": true,
+        "tags": [
+            "NAVEGANTES",
+            "AEROPORTO",
+            "NVT"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b4",
+        "iata": "PAV",
+        "name_pt": "Paulo Afonso, Bahia",
+        "name_en": "Paulo Afonso, Bahia",
+        "name_es": "Paulo Afonso, Bahia",
+        "city": "Paulo Afonso, Bahia, Brasil",
+        "latitude": "-9.401944",
+        "longitude": "-38.253889",
+        "activated": true,
+        "tags": [
+            "PAULO",
+            "PAV",
+            "AEROPORTO",
+            "AFONSO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b5",
+        "iata": "PET",
+        "name_pt": "Pelotas, Rio Grande do Sul",
+        "name_en": "Pelotas, Rio Grande do Sul",
+        "name_es": "Pelotas, Rio Grande do Sul",
+        "city": "Pelotas, Rio Grande do Sul, Brasil",
+        "latitude": "-31.718333",
+        "longitude": "-52.3275",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "PELOTAS",
+            "FEDERAL",
+            "PET"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b6",
+        "iata": "PFB",
+        "name_pt": "Passo Fundo, Rio Grande do Sul",
+        "name_en": "Passo Fundo, Rio Grande do Sul",
+        "name_es": "Passo Fundo, Rio Grande do Sul",
+        "city": "Passo Fundo, Rio Grande do Sul, Brasil",
+        "latitude": "-28.25",
+        "longitude": "-52.333333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "PASSO",
+            "FUNDO",
+            "PFB"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b7",
+        "iata": "PHB",
+        "name_pt": "Parnaiba, Piauí",
+        "name_en": "Parnaiba, Piauí",
+        "name_es": "Parnaiba, Piauí",
+        "city": "Parnaiba, Piauí, Brasil",
+        "latitude": "-2.89388888889",
+        "longitude": "-4.7325",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "DO",
+            "PHB",
+            "PARNAIBA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b8",
+        "iata": "PIN",
+        "name_pt": "Parintins, Amazonas",
+        "name_en": "Parintins, Amazonas",
+        "name_es": "Parintins, Amazonas",
+        "city": "Parintins, Amazonas, Brasil",
+        "latitude": "-2.63333333333333",
+        "longitude": "-56.7333333333333",
+        "activated": true,
+        "tags": [
+            "PARINTINS",
+            "PIN",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03b9",
+        "iata": "PMW",
+        "name_pt": "Palmas, Tocantins",
+        "name_en": "Palmas, Tocantins",
+        "name_es": "Palmas, Tocantins",
+        "city": "Palmas, Tocantins, Brasil",
+        "latitude": "-22.858889",
+        "longitude": "-43.203056",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "PMW",
+            "PALMAS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caba0a88d2927ca03ba",
+        "iata": "PNZ",
+        "name_pt": "Petrolina, Pernambuco",
+        "name_en": "Petrolina, Pernambuco",
+        "name_es": "Petrolina, Pernambuco",
+        "city": "Petrolina, Pernambuco, Brasil",
+        "latitude": "-9.364722",
+        "longitude": "-40.565833",
+        "activated": true,
+        "tags": [
+            "PETROLINA",
+            "AEROPORTO",
+            "PNZ"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03bb",
+        "iata": "POA",
+        "name_pt": "Porto Alegre, Rio Grande do Sul",
+        "name_en": "Porto Alegre, Rio Grande do Sul",
+        "name_es": "Porto Alegre, Rio Grande do Sul",
+        "city": "Porto Alegre, Rio Grande do Sul, Brasil",
+        "latitude": "-29.993889",
+        "longitude": "-51.171111",
+        "activated": true,
+        "tags": [
+            "PORTO",
+            "SALGADO",
+            "POA",
+            "AEROPORTO",
+            "ALEGRE",
+            "FILHO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03bc",
+        "iata": "POJ",
+        "name_pt": "Patos de Minas, Minas Gerais",
+        "name_en": "Patos de Minas, Minas Gerais",
+        "name_es": "Patos de Minas, Minas Gerais",
+        "city": "Patos de Minas, Minas Gerais, Brasil",
+        "latitude": "-18.671667",
+        "longitude": "-46.490833",
+        "activated": true,
+        "tags": [
+            "PATOS",
+            "DE",
+            "AEROPORTO",
+            "POJ",
+            "MINAS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03bd",
+        "iata": "PPB",
+        "name_pt": "Presidente Prudente, São Paulo",
+        "name_en": "Presidente Prudente, São Paulo",
+        "name_es": "Presidente Prudente, São Paulo",
+        "city": "Presidente Prudente, São Paulo, Brasil",
+        "latitude": "-22.177778",
+        "longitude": "-51.418333",
+        "activated": true,
+        "tags": [
+            "PRESIDENTE",
+            "DE",
+            "PPB",
+            "AEROPORTO",
+            "BARROS",
+            "ADHEMAR",
+            "PRUDENTE"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03be",
+        "iata": "PTO",
+        "name_pt": "Pato Branco, Paraná",
+        "name_en": "Pato Branco, Paraná",
+        "name_es": "Pato Branco, Paraná",
+        "city": "Pato Branco, Parana, Brasil",
+        "latitude": "",
+        "longitude": "",
+        "activated": true,
+        "tags": [
+            "MUNICIPAL",
+            "AEROPORTO",
+            "PATO",
+            "PTO",
+            "BRANCO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03bf",
+        "iata": "PVH",
+        "name_pt": "Porto Velho, Rondônia",
+        "name_en": "Porto Velho, Rondônia",
+        "name_es": "Porto Velho, Rondônia",
+        "city": "Porto Velho, Rondônia, Brasil",
+        "latitude": "-8.70916666666667",
+        "longitude": "-63.9022222222222",
+        "activated": true,
+        "tags": [
+            "PORTO",
+            "PVH",
+            "AEROPORTO",
+            "TEIXEIRA",
+            "VELHO",
+            "JORGE",
+            "GOVERNADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c0",
+        "iata": "RAO",
+        "name_pt": "Ribeirão Preto, São Paulo",
+        "name_en": "Ribeirão Preto, São Paulo",
+        "name_es": "Ribeirão Preto, São Paulo",
+        "city": "Ribeirão Preto, São Paulo, Brasil",
+        "latitude": "-21.136111",
+        "longitude": "-47.776111",
+        "activated": true,
+        "tags": [
+            "RAO",
+            "PRETO",
+            "RIBEIRAO",
+            "AEROPORTO",
+            "LEITE",
+            "LOPES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c1",
+        "iata": "RBR",
+        "name_pt": "Rio Branco, Acre",
+        "name_en": "Rio Branco, Acre",
+        "name_es": "Rio Branco, Acre",
+        "city": "Rio Branco, Acre, Brasil",
+        "latitude": "-9.868889",
+        "longitude": "-67.898056",
+        "activated": true,
+        "tags": [
+            "MEDICI",
+            "PRES.",
+            "RBR",
+            "AEROPORTO",
+            "RIO",
+            "BRANCO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c2",
+        "iata": "RDC",
+        "name_pt": "Redenção, Pará",
+        "name_en": "Redenção, Pará",
+        "name_es": "Redenção, Pará",
+        "city": "Redenção, Pará, Brasil",
+        "latitude": "-8.03027777777778",
+        "longitude": "-49.98",
+        "activated": true,
+        "tags": [
+            "RDC",
+            "AEROPORTO",
+            "REDENCAO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c3",
+        "iata": "REC",
+        "name_pt": "Recife, Pernambuco",
+        "name_en": "Recife, Pernambuco",
+        "name_es": "Recife, Pernambuco",
+        "city": "Recife, Pernambuco, Brasil",
+        "latitude": "-8.125833",
+        "longitude": "-34.925833",
+        "activated": true,
+        "tags": [
+            "RECIFE",
+            "REC",
+            "GUARARAPES",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c4",
+        "iata": "RIA",
+        "name_pt": "Santa Maria, Rio Grande do Sul",
+        "name_en": "Santa Maria, Rio Grande do Sul",
+        "name_es": "Santa Maria, Rio Grande do Sul",
+        "city": "Santa Maria, Rio Grande do Sul, Brasil",
+        "latitude": "-29.710278",
+        "longitude": "-53.691667",
+        "activated": true,
+        "tags": [
+            "DE",
+            "AEROPORTO",
+            "RIA",
+            "SANTA",
+            "MARIA",
+            "AEREA",
+            "BASE"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c5",
+        "iata": "RIG",
+        "name_pt": "Rio Grande, Rio Grande do Sul",
+        "name_en": "Rio Grande, Rio Grande do Sul",
+        "name_es": "Rio Grande, Rio Grande do Sul",
+        "city": "Rio Grande, Rio Grande do Sul, Brasil",
+        "latitude": "-32.081944",
+        "longitude": "-52.166389",
+        "activated": true,
+        "tags": [
+            "RIG",
+            "GRANDE",
+            "AEROPORTO",
+            "RIO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c6",
+        "iata": "GIG",
+        "name_pt": "Rio de Janeiro, Aeroporto Galeão",
+        "name_en": "Rio de Janeiro, Aeroporto Galeão",
+        "name_es": "Rio de Janeiro, Aeroporto Galeão",
+        "city": "Rio de Janeiro, Rio de Janeiro, Brasil",
+        "latitude": "-22.809444",
+        "longitude": "-43.25",
+        "activated": true,
+        "tags": [
+            "DE",
+            "CARLOS",
+            "GIG",
+            "JOBIM",
+            "AEROPORTO",
+            "RIO",
+            "JANEIRO",
+            "GALEAO",
+            "ANTONIO"
+        ],
+        "weight": 9,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c7",
+        "iata": "ROO",
+        "name_pt": "Rondonópolis, Mato Grosso",
+        "name_en": "Rondonópolis, Mato Grosso",
+        "name_es": "Rondonópolis, Mato Grosso",
+        "city": "Rondonópolis, Mato Grosso, Brasil",
+        "latitude": "-16.433333",
+        "longitude": "-54.716667",
+        "activated": true,
+        "tags": [
+            "ROO",
+            "AEROPORTO",
+            "RONDONOPOLIS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03c8",
+        "iata": "RVD",
+        "name_pt": "Rio Verde, Goiás",
+        "name_en": "Rio Verde, Goiás",
+        "name_es": "Rio Verde, Goiás",
+        "city": "Rio Verde, Goiás, Brasil",
+        "latitude": "-17.8333333333333",
+        "longitude": "-50.9552777777778",
+        "activated": true,
+        "tags": [
+            "RVD",
+            "AEROPORTO",
+            "VERDE",
+            "RIO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03ca",
+        "iata": "CGH",
+        "name_pt": "São Paulo, Aeroporto Congonhas",
+        "name_en": "São Paulo, Aeroporto Congonhas",
+        "name_es": "São Paulo, Aeroporto Congonhas",
+        "city": "São Paulo, São Paulo, Brasil",
+        "latitude": "-23.6266666666667",
+        "longitude": "-46.6552777777778",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "PAULO",
+            "CGH",
+            "AEROPORTO",
+            "CONGONHAS"
+        ],
+        "weight": 9,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03cb",
+        "iata": "SJK",
+        "name_pt": "São José dos Campos, São Paulo",
+        "name_en": "São José dos Campos, São Paulo",
+        "name_es": "São José dos Campos, São Paulo",
+        "city": "São José dos Campos, São Paulo, Brasil",
+        "latitude": "-23.228333",
+        "longitude": "-45.870556",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "JOSE",
+            "SJK",
+            "AEROPORTO",
+            "DOS",
+            "CAMPOS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03cc",
+        "iata": "SJL",
+        "name_pt": "São Gabriel, Rio Grande do Sul",
+        "name_en": "São Gabriel, Rio Grande do Sul",
+        "name_es": "São Gabriel, Rio Grande do Sul",
+        "city": "São Gabriel, Rio Grande do Sul, Brasil",
+        "latitude": "-0.148056",
+        "longitude": "-66985",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "CACHOEIRA",
+            "SJL",
+            "AEROPORTO",
+            "GABRIEL",
+            "DA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03cd",
+        "iata": "SJP",
+        "name_pt": "São José do Rio Preto, São Paulo",
+        "name_en": "São José do Rio Preto, São Paulo",
+        "name_es": "São José do Rio Preto, São Paulo",
+        "city": "São José do Rio Preto, São Paulo, Brasil",
+        "latitude": "-20.8",
+        "longitude": "-49.383333",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "PRETO",
+            "JOSE",
+            "AEROPORTO",
+            "SJP",
+            "RIO",
+            "DO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03ce",
+        "iata": "SLZ",
+        "name_pt": "São Luís, Maranhão",
+        "name_en": "São Luís, Maranhão",
+        "name_es": "São Luís, Maranhão",
+        "city": "São Luís, Maranhão, Brasil",
+        "latitude": "-2.586667",
+        "longitude": "-44.235833",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "LUIS",
+            "SLZ",
+            "CUNHA",
+            "AEROPORTO",
+            "MARECHAL",
+            "MACHADO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03cf",
+        "iata": "SRA",
+        "name_pt": "Santa Rosa, Rio Grande do Sul",
+        "name_en": "Santa Rosa, Rio Grande do Sul",
+        "name_es": "Santa Rosa, Rio Grande do Sul",
+        "city": "Santa Rosa, Rio Grande do Sul, Brasil",
+        "latitude": "-27.90797",
+        "longitude": "-54.52163",
+        "activated": true,
+        "tags": [
+            "SRA",
+            "AEROPORTO",
+            "SANTA",
+            "ROSA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d0",
+        "iata": "SSA",
+        "name_pt": "Salvador, Bahia",
+        "name_en": "Salvador, Bahia",
+        "name_es": "Salvador, Bahia",
+        "city": "Salvador, Bahia, Brasil",
+        "latitude": "-12.9111111111111",
+        "longitude": "-38.3311111111111",
+        "activated": true,
+        "tags": [
+            "LUIS",
+            "SSA",
+            "MAGALHAES",
+            "EDUARDO",
+            "AEROPORTO",
+            "SALVADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d1",
+        "iata": "STM",
+        "name_pt": "Santarém, Pará",
+        "name_en": "Santarém, Pará",
+        "name_es": "Santarém, Pará",
+        "city": "Santarém, Pará, Brasil",
+        "latitude": "-2.424444",
+        "longitude": "-54.785278",
+        "activated": true,
+        "tags": [
+            "MAESTRO",
+            "FONSECA",
+            "SANTAREM",
+            "WILSON",
+            "AEROPORTO",
+            "STM"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d2",
+        "iata": "SXO",
+        "name_pt": "São Felix Araguai, Mato Grosso",
+        "name_en": "São Felix Araguai, Mato Grosso",
+        "name_es": "São Felix Araguai, Mato Grosso",
+        "city": "São Felix Araguai, Mato Grosso, Brasil",
+        "latitude": "-11.633333",
+        "longitude": "-50.7",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "ARAGUAI",
+            "FELIX",
+            "AEROPORTO",
+            "DO",
+            "SXO",
+            "ARAGUAIA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d3",
+        "iata": "TBT",
+        "name_pt": "Tabatinga, Maranhão",
+        "name_en": "Tabatinga, Maranhão",
+        "name_es": "Tabatinga, Maranhão",
+        "city": "Tabatinga, Maranhão, Brasil",
+        "latitude": "-4.250278",
+        "longitude": "-69.937222",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "TBT",
+            "TABATINGA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d4",
+        "iata": "TFF",
+        "name_pt": "Tefé, Amazonas",
+        "name_en": "Tefé, Amazonas",
+        "name_es": "Tefé, Amazonas",
+        "city": "Tefé, Amazonas, Brasil",
+        "latitude": "-3.36666666666667",
+        "longitude": "-64.7",
+        "activated": true,
+        "tags": [
+            "TFF",
+            "AEROPORTO",
+            "TEFE"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d5",
+        "iata": "THE",
+        "name_pt": "Teresina, Piauí",
+        "name_en": "Teresina, Piauí",
+        "name_es": "Teresina, Piauí",
+        "city": "Teresina, Piauí, Brasil",
+        "latitude": "-5.060278",
+        "longitude": "-42.823889",
+        "activated": true,
+        "tags": [
+            "THE",
+            "PETRONIO",
+            "AEROPORTO",
+            "PORTELLA",
+            "TERESINA",
+            "SENADOR"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d6",
+        "iata": "TUR",
+        "name_pt": "Tucurui, Pará",
+        "name_en": "Tucurui, Pará",
+        "name_es": "Tucurui, Pará",
+        "city": "Tucurui, Pará, Brasil",
+        "latitude": "-3.776667",
+        "longitude": "-49.719167",
+        "activated": true,
+        "tags": [
+            "TUR",
+            "AEROPORTO",
+            "TUCURUI"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d7",
+        "iata": "UBA",
+        "name_pt": "Uberaba, Minas Gerais",
+        "name_en": "Uberaba, Minas Gerais",
+        "name_es": "Uberaba, Minas Gerais",
+        "city": "Uberaba, Minas Gerais, Brasil",
+        "latitude": "-19.764167",
+        "longitude": "-47.965556",
+        "activated": true,
+        "tags": [
+            "UBERABA",
+            "UBA",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d8",
+        "iata": "UDI",
+        "name_pt": "Uberlândia, Minas Gerais",
+        "name_en": "Uberlândia, Minas Gerais",
+        "name_es": "Uberlândia, Minas Gerais",
+        "city": "Uberlândia, Minas Gerais, Brasil",
+        "latitude": "-18.8827777777778",
+        "longitude": "-48.2255555555556",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "UDI",
+            "UBERLANDIA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03d9",
+        "iata": "URG",
+        "name_pt": "Uruguaiana, Rio Grande do Sul",
+        "name_en": "Uruguaiana, Rio Grande do Sul",
+        "name_es": "Uruguaiana, Rio Grande do Sul",
+        "city": "Uruguaiana, Rio Grande do Sul, Brasil",
+        "latitude": "-29.7833333333333",
+        "longitude": "-57.0333333333333",
+        "activated": true,
+        "tags": [
+            "RUBEN",
+            "AEROPORTO",
+            "URUGUAIANA",
+            "URG",
+            "BERTA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03da",
+        "iata": "VAG",
+        "name_pt": "Varginha, Minas Gerais",
+        "name_en": "Varginha, Minas Gerais",
+        "name_es": "Varginha, Minas Gerais",
+        "city": "Varginha, Minas Gerais, Brasil",
+        "latitude": "-21.588333",
+        "longitude": "-45.472778",
+        "activated": true,
+        "tags": [
+            "TROMPOWSKY",
+            "AEROPORTO",
+            "BRIG.",
+            "MAJ.",
+            "VARGINHA",
+            "VAG"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03db",
+        "iata": "VAL",
+        "name_pt": "Valença, Bahia",
+        "name_en": "Valença, Bahia",
+        "name_es": "Valença, Bahia",
+        "city": "Valença, Bahia, Brasil",
+        "latitude": "-13.3666666666667",
+        "longitude": "-39.0666666666667",
+        "activated": true,
+        "tags": [
+            "VAL",
+            "AEROPORTO",
+            "VALENCA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03dc",
+        "iata": "VDC",
+        "name_pt": "Vitória da Conquista, Bahia",
+        "name_en": "Vitória da Conquista, Bahia",
+        "name_es": "Vitória da Conquista, Bahia",
+        "city": "Vitória da Conquista, Bahia, Brasil",
+        "latitude": "-14.8833333333333",
+        "longitude": "-40.8666666666667",
+        "activated": true,
+        "tags": [
+            "VITORIA",
+            "VDC",
+            "AEROPORTO",
+            "CONQUISTA",
+            "DA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03dd",
+        "iata": "VIX",
+        "name_pt": "Vitória, Espírito Santo",
+        "name_en": "Vitória, Espírito Santo",
+        "name_es": "Vitória, Espírito Santo",
+        "city": "Vitória, Espírito Santo, Brasil",
+        "latitude": "-20.264444",
+        "longitude": "-40.2875",
+        "activated": true,
+        "tags": [
+            "EURICO",
+            "VITORIA",
+            "VIX",
+            "AEROPORTO",
+            "SALES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03de",
+        "iata": "VLP",
+        "name_pt": "Vila Rica, Mato Grosso",
+        "name_en": "Vila Rica, Mato Grosso",
+        "name_es": "Vila Rica, Mato Grosso",
+        "city": "Vila Rica, Mato Grosso, Brasil",
+        "latitude": "",
+        "longitude": "",
+        "activated": true,
+        "tags": [
+            "VILA",
+            "MUNICIPAL",
+            "RICA",
+            "AEROPORTO",
+            "VLP"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03df",
+        "iata": "XAP",
+        "name_pt": "Chapecó, Santa Catarina",
+        "name_en": "Chapecó, Santa Catarina",
+        "name_es": "Chapecó, Santa Catarina",
+        "city": "Chapecó, Santa Catarina, Brasil",
+        "latitude": "-27.133611",
+        "longitude": "-52.661111",
+        "activated": true,
+        "tags": [
+            "XAP",
+            "AEROPORTO",
+            "CHAPECO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e0",
+        "iata": "IZA",
+        "name_pt": "Juiz de Fora, Minas Gerais, Brasil",
+        "name_en": "Juiz de Fora, Minas Gerais, Brasil",
+        "name_es": "Juiz de Fora, Minas Gerais, Brasil",
+        "city": "Juiz de Fora, Minas Gerais, Brasil",
+        "latitude": "-21.511389",
+        "longitude": "-43.173056",
+        "activated": true,
+        "tags": [
+            "DE",
+            "IZA",
+            "ZONA",
+            "MATA",
+            "AEROPORTO",
+            "FORA",
+            "DA",
+            "JUIZ"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e1",
+        "iata": "JTC",
+        "name_pt": "Bauru, São Paulo",
+        "name_en": "Bauru, São Paulo",
+        "name_es": "Bauru, São Paulo",
+        "city": "Bauru, São Paulo, Brasil",
+        "latitude": "-22.157778",
+        "longitude": "-49.068333",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "JTC",
+            "BAURU",
+            "BAURUAREALVA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e2",
+        "iata": "JDR",
+        "name_pt": "São João del Rei, Minas Gerais",
+        "name_en": "São João del Rei, Minas Gerais",
+        "name_es": "São João del Rei, Minas Gerais",
+        "city": "São João del Rei, Minas Gerais, Brasil",
+        "latitude": "-22.0839094598925",
+        "longitude": "-44.2266118526459",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "JOAO",
+            "AEROPORTO",
+            "REI",
+            "JDR",
+            "DEL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e3",
+        "iata": "IRZ",
+        "name_pt": "Barcelos, Amazonas",
+        "name_en": "Barcelos, Amazonas",
+        "name_es": "Barcelos, Amazonas",
+        "city": "Barcelos, Amazonas, Brasil",
+        "latitude": "-0.41667",
+        "longitude": "-65.03333",
+        "activated": true,
+        "tags": [
+            "IRZ",
+            "AEROPORTO",
+            "TAPURUQUARA",
+            "BARCELOS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e4",
+        "iata": "HUW",
+        "name_pt": "Porto Velho, Rondônia",
+        "name_en": "Porto Velho, Rondônia",
+        "name_es": "Porto Velho, Rondônia",
+        "city": "Porto Velho, Rondônia, Brasil",
+        "latitude": "-7.53333",
+        "longitude": "-63.05",
+        "activated": true,
+        "tags": [
+            "PORTO",
+            "AEROPORTO",
+            "FRANCISCO",
+            "VELHO",
+            "CRUZ",
+            "HUW",
+            "CORREA",
+            "DA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e5",
+        "iata": "OAL",
+        "name_pt": "Cacoal, Rondônia",
+        "name_en": "Cacoal, Rondônia",
+        "name_es": "Cacoal, Rondônia",
+        "city": "Cacoal, Rondônia, Brasil",
+        "latitude": "-11.433889",
+        "longitude": "-61.4825",
+        "activated": true,
+        "tags": [
+            "AEROPORTO",
+            "OAL",
+            "CACOAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e6",
+        "iata": "REZ",
+        "name_pt": "Resende, Rio de Janeiro",
+        "name_en": "Resende, Rio de Janeiro",
+        "name_es": "Resende, Rio de Janeiro",
+        "city": "Resende, Rio de Janeiro, Brasil",
+        "latitude": "-22.478056",
+        "longitude": "-44.481111",
+        "activated": true,
+        "tags": [
+            "RESENDE",
+            "REZ",
+            "AEROPORTO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e7",
+        "iata": "OIA",
+        "name_pt": "Ourilandia do Norte, Pará",
+        "name_en": "Ourilandia do Norte, Pará",
+        "name_es": "Ourilandia do Norte, Pará",
+        "city": "Ourilandia do Norte, Pará, Brasil",
+        "latitude": "-6.775833",
+        "longitude": "-51.06",
+        "activated": true,
+        "tags": [
+            "OURILANDIA",
+            "NORTE",
+            "OIA",
+            "AEROPORTO",
+            "DO"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e8",
+        "iata": "TJL",
+        "name_pt": "Três Lagoas, Mato Grosso do Sul",
+        "name_en": "Três Lagoas, Mato Grosso do Sul",
+        "name_es": "Três Lagoas, Mato Grosso do Sul",
+        "city": "Três Lagoas, Mato Grosso do Sul, Brasil",
+        "latitude": "-20.751111",
+        "longitude": "-51.678333",
+        "activated": true,
+        "tags": [
+            "PLINIO",
+            "AEROPORTO",
+            "TJL",
+            "ALARCOM",
+            "LAGOAS",
+            "TRES"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03e9",
+        "iata": "TXF",
+        "name_pt": "Teixeira de Freitas, Bahia",
+        "name_en": "Teixeira de Freitas, Bahia",
+        "name_es": "Teixeira de Freitas, Bahia",
+        "city": "Teixeira de Freitas, Bahia, Brasil",
+        "latitude": "-7.133333",
+        "longitude": "-37.183333",
+        "activated": true,
+        "tags": [
+            "DE",
+            "TEIXERA",
+            "TXF",
+            "FREITAS",
+            "AEROPORTO",
+            "TEIXEIRA"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03ea",
+        "iata": "JJG",
+        "name_pt": "Jaguaruna, Santa Catarina",
+        "name_en": "Jaguaruna, Santa Catarina",
+        "name_es": "Jaguaruna, Santa Catarina",
+        "city": "Jaguaruna, Santa Catarina, Brasil",
+        "latitude": "-28.6154",
+        "longitude": "-49.0253",
+        "activated": true,
+        "tags": [
+            "DE",
+            "JJG",
+            "AEROPORTO",
+            "JAGUARUNA",
+            "REGIONAL"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03eb",
+        "iata": "SAO",
+        "name_pt": "São Paulo, qualquer aeroporto",
+        "name_en": "São Paulo, qualquer aeroporto",
+        "name_es": "São Paulo, qualquer aeroporto",
+        "city": "São Paulo",
+        "latitude": "-12.5432322",
+        "longitude": "-55.7080865",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "PAULO",
+            "AEROPORTO"
+        ],
+        "weight": 999,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03ec",
+        "iata": "RIO",
+        "name_pt": "Rio de Janeiro, qualquer aeroporto",
+        "name_en": "Rio de Janeiro, qualquer aeroporto",
+        "name_es": "Rio de Janeiro, qualquer aeroporto",
+        "city": "Rio de Janeiro",
+        "latitude": "-12.5432322",
+        "longitude": "-55.7080865",
+        "activated": true,
+        "tags": [
+            "DE",
+            "AEROPORTO",
+            "RIO",
+            "JANEIRO"
+        ],
+        "weight": 99,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598caca0a88d2927ca03ed",
+        "iata": "CKS",
+        "name_pt": "Carajás, Pará",
+        "name_en": "Carajás, Pará",
+        "name_es": "Carajás, Pará",
+        "city": "Carajás, Pará, Brasil",
+        "latitude": "-2.95124",
+        "longitude": "-51.8612",
+        "activated": true,
+        "tags": [
+            "CARAJAS",
+            "AEROPORTO",
+            "CKS"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5c598f8d8e2c544c7c2428a4",
+        "iata": "VCP",
+        "name_pt": "São Paulo, Aeroporto de Campinas",
+        "name_en": "São Paulo, Aeroporto de Campinas",
+        "name_es": "São Paulo, Aeroporto de Campinas",
+        "city": "Campinas, São Paulo, Brasil",
+        "latitude": "-23.4319444444444",
+        "longitude": "-46.4694444444444",
+        "activated": true,
+        "tags": [
+            "SAO",
+            "PAULO",
+            "CAMPINAS",
+            "AEROPORTO",
+            "VIRACOPOS",
+            "VCP"
+        ],
+        "weight": 7,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5d23aa9e364bf53789847360",
+        "iata": "MVF",
+        "name_pt": "Mossoró, Rio Grande do Norte",
+        "name_en": "Mossoró, Rio Grande do Norte",
+        "name_es": "Mossoró, Rio Grande do Norte",
+        "city": "Mossoró, Rio Grande do Norte, Brasil",
+        "activated": true,
+        "tags": [
+            "Mossoró",
+            "MVF"
+        ],
+        "weight": 0,
+        "_class": "br.com.air.api.domain.Airport"
+    },
+    {
+        "_id": "5f00ecfb4a89ee0790ef2472",
+        "iata": "SCL",
+        "name_pt": "Santiago, Aeroporto de Santiago",
+        "name_en": "Santiago, Santiago Airport",
+        "name_es": "Santiago, Aeropuerto de Santiago",
+        "city": "Pudahuel, Región Metropolitana, Chile",
+        "latitude": "-33.3966058",
+        "longitude": "-70.7934402",
+        "activated": true,
+        "tags": [
+            "SANTIAGO",
+            "PUDAHUEL",
+            "CHILE",
+            "SCL"
+        ],
+        "weight": 0.0,
+        "_class": "br.com.air.api.domain.Airport"
+    }
+]

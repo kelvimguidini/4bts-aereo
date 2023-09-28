@@ -1,0 +1,43 @@
+{
+  "name": "gisleisilva/4bts",
+  "description": "Painel administrativo para gerenciamento de usuários",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Gislei Silva",
+      "email": "gisleisilvacruz@gmail.com",
+      "role": "Developer",
+      "homepage": "https://www.linkedin.com/in/gisleisilvacruz/"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.4.21"
+    },
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "1.0.8",
+    "coffeecode/datalayer": "1.1.8",
+    "coffeecode/optimizer": "2.0.2",
+    "league/plates": "v4.0.0-alpha",
+    "guzzlehttp/guzzle": "^7.4",
+    "athari/yalinqo": "^2.0"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.21"
+  }
+}

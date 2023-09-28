@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+	--font-family: 'Montserrat', sans-serif;
+	--font-family2: 'Roboto', sans-serif;
+	--font-weight: 500;
+	--color1: #000000;
+	--color2: #ffffff;
+	--color3: #FD7322;
+	--color4: #FF0000;
+	--color5: #F7F7F7;
+	--width-default: 1280px;
+	--padding-default: 15px;
+	--margin-default: 0px auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: var(--font-family);
+	color: var(--color1);
+	text-decoration: none;
+}
+
+.container {
+	width: 100%
+}
+
+.container .row {
+	width: calc(100% - (2 * var(--padding-default)));
+	max-width: calc(var(--width-default) - (2 * var(--padding-default)));
+	margin: var(--margin-default);
+}
+
+header .container {
+	background-color: var(--color1);
+}
+
+header .container .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+}
+
+header .container .row .logo {
+	height: 63px;
+}
+
+header .container .row .email {
+	color: var(--color2);
+	font-size: 18px;
+}
+
+main {
+	min-height: 70vh;
+	;
+	padding: 50px 0
+}
+
+main .row.title {
+	padding: 35px 0
+}
+
+main .row.title.v1x {
+	font-size: 12px
+}
+
+footer .container {
+	background-color: var(--color1);
+}
+
+footer .container .row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer .container .row .logo {
+	height: 63px;
+}
+
+footer .container .row .social a {
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	background: var(--color2)
+}
+
+footer .container .row .social a svg {
+	width: 11px
+}
+
+footer .container .row .social a:first-child {
+	margin-right: 5px;
+}
+
+footer .container .row .social a:last-child svg {
+	width: 15px
+}
+
+footer .container .row .social i {
+	color: var(--color1);
+	font-size: 20px;
+}
+
+footer .container .row .copy {
+	color: var(--color2)
+}
+
+footer .container .row .col {
+	margin-bottom: 15px;
+}
+
+@media(max-width:444px) {
+	header .container .row {
+		justify-content: center;
+	}
+
+	header .col.email {
+		display: none;
+	}
+}
+
+/***MODAL */
+/* The Modal (background) */
+.modal {
+
+	position: fixed;
+	/* Stay in place */
+	z-index: 100000;
+	/* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	/* 15% from the top and centered */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 50%;
+	border-radius: 10px;
+	/* Could be more or less, depending on screen size */
+}
+
+.modal-content li {
+	list-style-type: none;
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/***FIM MODAL */
+
+/**tooltip*/
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff !important;
+	font-size: 13px !important;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	z-index: 1;
+}
+
+
+.tooltipbox {
+	visibility: hidden;
+	background-color: #ccc;
+	color: #fff;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 6px;
+	border-color: #000;
+	padding: 15px 5px;
+	position: absolute;
+	z-index: 100000;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -60px;
+	min-width: 250px;
+}
+
+.tooltipbox li {
+	list-style-type: none;
+}
+
+.tooltipbox::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltipbox {
+	visibility: visible;
+	z-index: 1;
+}
+
+
+/**fim tooltip*/
